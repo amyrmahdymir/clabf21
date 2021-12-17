@@ -1,0 +1,9 @@
+n = int(input('enter the number: '))--> takes a number from user
+flg = True --> a flag set to True as default in case there is no number divisible in the range
+for i in range(2, n):---> a loop for testing numbers up to the entered number
+    if(n % i == 0):--> checking if our number is divisible by any number in the range
+        print('Not Prime')--> if it was, then we print not prime
+        flg = False--> the flag that shows if the number is prime is reassigned to False
+        break--> and we break out of the loop as we find a number dividing our entered number
+
+print(flg)--> prints the boolean value if our number is prime or not
