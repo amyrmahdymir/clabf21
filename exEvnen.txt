@@ -1,0 +1,6 @@
+n = int(input('enter the number: '))--> getting the number
+if n%2==0:--> setting a conditional statement for divisiblity by 2
+    print('EVEN')--> if divisible, then we print even
+else:-->the other condition, not divisible
+    print('ODD')--> printing not divisible
+
